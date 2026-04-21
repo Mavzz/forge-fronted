@@ -1,6 +1,6 @@
-import { StyleSheet, useColorScheme, View } from 'react-native';
+import { StyleSheet, View } from 'react-native';
 import { QueryClientProvider } from '@tanstack/react-query';
-import RootNavigator from './src/navigation/rootnavigator';
+import RootNavigator from './src/navigation/RootNavigator';
 import { useAppStore } from './src/store/useAppStore';
 import React from 'react';
 import { ActivityIndicator } from 'react-native';
@@ -10,9 +10,9 @@ function App() {
   const hydrate = useAppStore(s => s.hydrate);
   const isHydrated = useAppStore(s => s.isHydrated);
 
-  const isDarkMode = useColorScheme() === 'dark';
-
-  React.useEffect(() => { hydrate(); }, []);
+  React.useEffect(() => {
+    hydrate();
+  }, [hydrate]);
 
   if (!isHydrated) {
     return (

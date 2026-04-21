@@ -1,9 +1,5 @@
-import { View } from "react-native";
-import { GoalsScreenProps } from "../../types/navigation";
+import { View } from 'react-native';
 
-export default function GoalsScreen({ navigation }: GoalsScreenProps) {
-  return (
-    <View>
-    </View>
-  );
+export default function GoalsScreen() {
+  return <View />;
 }

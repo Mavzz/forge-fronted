@@ -1,9 +1,5 @@
-import { View } from "react-native";
-import { TodayScreenProps } from "../../types/navigation";
+import { View } from 'react-native';
 
-export default function TodayScreen({ navigation }: TodayScreenProps) {
-  return (
-    <View>
-    </View>
-  );
+export default function TodayScreen() {
+  return <View />;
 }

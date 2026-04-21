@@ -1,5 +1,4 @@
 import { create } from 'zustand';
-import { persist, createJSONStorage, type StateStorage } from 'zustand/middleware';
 import { createMMKV, type MMKV, deleteMMKV } from 'react-native-mmkv';
 import * as Keychain from 'react-native-keychain';
 

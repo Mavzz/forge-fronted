@@ -1,9 +1,5 @@
-import { View } from "react-native";
-import { StreakScreenProps } from "../../types/navigation";
+import { View } from 'react-native';
 
-export default function StreakScreen({ navigation }: StreakScreenProps) {
-  return (
-    <View>
-    </View>
-  );
+export default function StreakScreen() {
+  return <View />;
 }
