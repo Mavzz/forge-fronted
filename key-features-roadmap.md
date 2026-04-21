@@ -1,0 +1,2 @@
+Key Features Roadmap
+PhaseFeaturev1Auth, categories, daily tasks, completion, streaksv2Push notifications (8am nudge, evening check-in), weekly recapv3AI-powered motivation messages via Claude API, smart schedulingv4Social accountability (share streaks), habit analytics dashboard
